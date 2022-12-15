@@ -1,23 +1,36 @@
 package com.company.Model;
 
+
 public class Library {
+    private String name;
+
     public Library(String name) {
-    }
-    public void addMember(Member member){
-    }
-    public Member[] getMembers(){
-        return [0 , ];
+        this.name = name;
     }
 
-    public void addBook(Book b){
+    public Library() {
     }
 
-    public Book[] getExistBook(){
-
+    public void addMember(Member member) {
     }
-    public Borrow[] getBorrow(){
 
+    public Member[] getMembers() {
+        return getMembers();
     }
-    public getBorrow[]
+
+    public void addBook(Book b) {
+    }
+
+    public Book[] getExistBook() {
+        return getExistBook();
+    }
+
+    public Borrow[] getBorrow() {
+        return getBorrow();
+    }
+    public Book[] getAllBooks(){
+         return getAllBooks();
+    }
+
 
 }
